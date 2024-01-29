@@ -1,0 +1,63 @@
+:root{
+    --primary :#FEC32D;
+}
+nav.navbar{
+    background-color: var(--primary) !important;
+}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.image{
+    width: 800px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+span.page-link {
+    cursor: pointer;
+}
+.logo-flex{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+    justify-content: flex-end;
+}
+.search-img{
+    width: 15px;
+    margin-top: -4px;
+}
+.cart-img{
+    width: 15px;
+    margin-top: -4px;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 60px 35px 30px 35px;
+    margin-top: 15px;
+}
+.icon-footer{
+    width: 28px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 75px;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.row-icon-footer{
+    display: flex;
+}
+.footer-text-sub{
+    font-size: 16px;
+}
+.card-img{
+    width: 300px !important;
+    object-fit: cover;
+    height: 200px;
+    max-width: 100%;
+}
